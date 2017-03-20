@@ -88,6 +88,7 @@ public class CounterService implements Serializable {
 
     public void resetLog() {
        countTimeArray.clear();
+        System.out.println("Log Cleared");
     }
 
 
